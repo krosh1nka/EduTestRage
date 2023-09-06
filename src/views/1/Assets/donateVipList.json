@@ -1,0 +1,42 @@
+[
+    {
+        "Name": "VIP BRONZE",
+        "Price": 155115,
+        "Description": "Описание asdфывфывфыв",
+        "IsRubles": true,
+        "VipID": 0,
+        "DayVIP": 14
+    },
+    {
+        "Name": "VIP SILVER",
+        "Price": 155115,
+        "Description": "Описание кфывфывфыв",
+        "IsRubles": false,
+        "VipID": 1,
+        "DayVIP": 14
+    },
+    {
+        "Name": "VIP GOLD",
+        "Price": 1515115,
+        "Description": "Описание кфывфывфыв",
+        "IsRubles": false,
+        "VipID": 2,
+        "DayVIP": 14
+    },
+    {
+        "Name": "VIP PLATINUM",
+        "Price": 155115,
+        "Description": "Описание кфывфывфыв",
+        "IsRubles": false,
+        "VipID": 3,
+        "DayVIP": 14
+    },
+    {
+        "Name": "VIP PLATINUM+",
+        "Price": 155115,
+        "Description": "Описание кфывфывфыв",
+        "IsRubles": true,
+        "VipID": 4,
+        "DayVIP": 14
+    }
+]

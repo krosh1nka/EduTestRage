@@ -1,0 +1,10 @@
+[
+    {
+        "Name": "M5",
+        "Model": "m5comp",
+        "Price": 150000,
+        "IsRubles": false,
+        "Description": "Какая-то херабота",
+        "Image": "190e.png"
+    }
+]

@@ -1,0 +1,603 @@
+{
+    "Items": {
+        "Продукты": [
+            {
+                "Name": "Газировка (10 шт.)",
+                "Text": "Газированный безалкогольный напиток. Уталит вашу жажду на 35%.",
+                "Price": 12500,
+                "Img": "eCola",
+                "Item": {
+                    "Data": null,
+                    "ID": 9,
+                    "Type": 9,
+                    "Count": 10,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Газировка (10 шт.)",
+                "Text": "Газированный безалкогольный напиток. Уталит вашу жажду на 30%. ",
+                "Price": 10000,
+                "Img": "Sprunk",
+                "Item": {
+                    "Data": null,
+                    "ID": 10,
+                    "Type": 10,
+                    "Count": 10,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Чипсы (4 шт.)",
+                "Text": "Закуска, представляющая собой тонкие ломтики картофеля. Утоляет голод на 35%.",
+                "Price": 12750,
+                "Img": "Chips",
+                "Item": {
+                    "Data": null,
+                    "ID": 3,
+                    "Type": 3,
+                    "Count": 4,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Пицца (10 шт.)",
+                "Text": "Традиционное итальянское блюдо в виде круглой дрожжевой лепёшки, выпекаемой с уложенной сверху начинкой. Утоляет голод на 65%.",
+                "Price": 14750,
+                "Img": "Pizza",
+                "Item": {
+                    "Data": null,
+                    "ID": 5,
+                    "Type": 5,
+                    "Count": 10,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Бургер (10 шт.)",
+                "Text": "Вид сэндвича, состоящего из разрезанной пополам булочки и рубленой жареной котлеты. Утоляет голод на 35%.",
+                "Price": 13750,
+                "Img": "Burger",
+                "Item": {
+                    "Data": null,
+                    "ID": 6,
+                    "Type": 6,
+                    "Count": 10,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Хот-Дог (10 шт.)",
+                "Text": "Пшеничная булка с сосиской или колбасой. Уталяет голод на 20%.",
+                "Price": 12990,
+                "Img": "HotDog",
+                "Item": {
+                    "Data": null,
+                    "ID": 7,
+                    "Type": 7,
+                    "Count": 10,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Сэндвич (10 шт.)",
+                "Text": "Вид бутерброда, состоящего из двух кусочков хлеба и какой-либо начинки между ними. Утоляет голод на 15%.",
+                "Price": 9750,
+                "Img": "Sandwich",
+                "Item": {
+                    "Data": null,
+                    "ID": 8,
+                    "Type": 8,
+                    "Count": 10,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            }
+        ],
+        "Электроника": [
+            {
+                "Name": "Сим-карта",
+                "Text": "Идентификационный электронный модуль абонента, применяемый в мобильной связи.",
+                "Price": 18000,
+                "Img": "SimCard",
+                "Item": null,
+                "IsDonate": false
+            },
+            {
+                "Name": "Рация",
+                "Text": "Приёмо-передающее устройство.",
+                "Price": 35000,
+                "Img": "Walkie",
+                "Item": {
+                    "Data": null,
+                    "ID": 565,
+                    "Type": 565,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "БумБокс",
+                "Text": "Звуковая колонка, линейный массив — акустическая система, состоящая из большого количества громкоговорителей, расположенных вертикально.",
+                "Price": 25000,
+                "Img": "BoomBox",
+                "Item": {
+                    "Data": null,
+                    "ID": 608,
+                    "Type": 608,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Электронка",
+                "Text": "Электронное устройство, генерирующее высокодисперсный аэрозоль, который вдыхает пользователь.",
+                "Price": 11500,
+                "Img": "Vape",
+                "Item": {
+                    "Data": null,
+                    "ID": 705,
+                    "Type": 705,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Камера",
+                "Text": "Первоначальное значение - комбинация телевизионной передающей камеры и устройства для видеозаписи.",
+                "Price": 12000,
+                "Img": "Camera",
+                "Item": {
+                    "Data": null,
+                    "ID": 708,
+                    "Type": 708,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Микрофон",
+                "Text": "Электроакустический прибор, преобразующий акустические колебания в электрический сигнал.",
+                "Price": 10500,
+                "Img": "Microphone",
+                "Item": {
+                    "Data": null,
+                    "ID": 709,
+                    "Type": 709,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Машинка для стрижки",
+                "Text": "Она может подрезать немного кончики или провести полноценную стрижку, в зависимости от выбранной насадки.",
+                "Price": 100000,
+                "Img": "ShearingMachine",
+                "Item": {
+                    "Data": null,
+                    "ID": 715,
+                    "Type": 715,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Экшен-Камера",
+                "Text": "Экшн-Камера — это небольшая, прочная, водонепроницаемая цифровая камера, предназначенная для съемки захватывающих экшн-кадров.",
+                "Price": 150000,
+                "Img": "bodycamers",
+                "Item": {
+                    "Data": 0,
+                    "ID": 720,
+                    "Type": 720,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            }
+        ],
+        "Разное": [
+            {
+                "Name": "Балончик",
+                "Text": "Подходит Что бы рисовать Граффити. ",
+                "Price": 15500,
+                "Img": "Balon",
+                "Item": {
+                    "Data": null,
+                    "ID": 43,
+                    "Type": 43,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Фонарик",
+                "Text": "Осветит вам дорогу в темную ночь.",
+                "Price": 18000,
+                "Img": "FlashLight_Shop",
+                "Item": {
+                    "Data": null,
+                    "ID": 191,
+                    "Type": 191,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Связка ключей",
+                "Text": "Поможет не потерять ваши ключи в карманах.",
+                "Price": 55000,
+                "Img": "KeyRing",
+                "Item": {
+                    "Data": null,
+                    "ID": 41,
+                    "Type": 41,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Рем комплект",
+                "Text": "C помощью него вы сможете починить ваш траспорт.",
+                "Price": 27000,
+                "Img": "Repair",
+                "Item": {
+                    "Data": null,
+                    "ID": 250,
+                    "Type": 250,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Ключ",
+                "Text": "Отремантирует вам канализацию.",
+                "Price": 19000,
+                "Img": "Wrench",
+                "Item": {
+                    "Data": null,
+                    "ID": 194,
+                    "Type": 194,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Бинт (5 шт.)",
+                "Text": "Полоска ткани используемая для перевязки ран. Лечит на 10%",
+                "Price": 8100,
+                "Img": "Bint",
+                "Item": {
+                    "Data": null,
+                    "ID": 251,
+                    "Type": 251,
+                    "Count": 5,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Аптечка (5 шт.)",
+                "Text": "Набор перевязочных материалов, инструментов и приспособлений, предназначенных для оказания первой помощи. Лечит на 40%",
+                "Price": 9975,
+                "Img": "Aptechka",
+                "Item": {
+                    "Data": null,
+                    "ID": 252,
+                    "Type": 252,
+                    "Count": 5,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Таблетки (5 шт.)",
+                "Text": "Твёрдая дозированная лекарственная форма. Лечит на 25%",
+                "Price": 9000,
+                "Img": "Tabletka",
+                "Item": {
+                    "Data": null,
+                    "ID": 253,
+                    "Type": 253,
+                    "Count": 5,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Адреналин (5 шт.)",
+                "Text": "Синтетический адреналин используется в качестве лекарственного средства. Лечит на 30%",
+                "Price": 9550,
+                "Img": "Adrenalin",
+                "Item": {
+                    "Data": null,
+                    "ID": 254,
+                    "Type": 254,
+                    "Count": 5,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Удочка",
+                "Text": "Kaida Impulse - линейка бюджетных фидерных удилищ от фирмы Kaida.",
+                "Price": 100000,
+                "Img": "udochka",
+                "Item": {
+                    "Data": "40",
+                    "ID": 205,
+                    "Type": 205,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Улучшенная Удочка",
+                "Text": "Карповое удилище для дальних забросов на озерах и реках с быстрым течением.",
+                "Price": 125000,
+                "Img": "udochka1",
+                "Item": {
+                    "Data": "70",
+                    "ID": 206,
+                    "Type": 206,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Удочка МК2",
+                "Text": "Отзывы опытных рыбаков подтверждают надежность модели в ловле на крупных реках с сильным течением.",
+                "Price": 150000,
+                "Img": "udochka2",
+                "Item": {
+                    "Data": "100",
+                    "ID": 207,
+                    "Type": 207,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Наживка (100 шт.)",
+                "Text": "Шарики приманивают рыбу, имитируя вкусы и запахи, которые свойственны природной наживке.",
+                "Price": 500,
+                "Img": "nagivka",
+                "Item": {
+                    "Data": null,
+                    "ID": 208,
+                    "Type": 208,
+                    "Count": 100,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Нож",
+                "Text": "Так сложилось, что основное предназначение охотничьего ножа — резать. В силу этого баланс, как правило, смещён в сторону рукояти. Клинок в большинстве случаев прямой, со сравнительно толстым обухом.",
+                "Price": 15175,
+                "Img": "Knife_Shop",
+                "Item": {
+                    "Data": null,
+                    "ID": 180,
+                    "Type": 180,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Игральная кость",
+                "Text": "Кубик, на каждой из шести граней которого нанесены числа от 1 до 6, которую бросают с целью демонстрации случайно определённого целого числа от одного до шести",
+                "Price": 2500,
+                "Img": "Dice_Shop",
+                "Item": {
+                    "Data": null,
+                    "ID": 636,
+                    "Type": 636,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Гитара",
+                "Text": "Струнный щипковый музыкальный инструмент. Применяется в качестве аккомпанирующего или сольного инструмента во многих стилях и направлениях музыки, среди которых романс, блюз, кантри, фламенко, рок, джаз.",
+                "Price": 50000,
+                "Img": "gitare",
+                "Item": {
+                    "Data": null,
+                    "ID": 703,
+                    "Type": 703,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Пачка с сигаретами",
+                "Text": "Это изделие, полностью или частично изготовленное из табака, предназначенное для курения, жевания, сосания или вдыхания через нос.",
+                "Price": 10500,
+                "Img": "sigareti",
+                "Item": {
+                    "Data": 20,
+                    "ID": 701,
+                    "Type": 701,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Зажигалка",
+                "Text": "Устройство для получения огня. Зажигалка в зависимости от конструкции и используемого топлива может быть газовой, бензиновой или электрической.",
+                "Price": 3500,
+                "Img": "zajigalka",
+                "Item": {
+                    "Data": null,
+                    "ID": 702,
+                    "Type": 702,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Бинокль",
+                "Text": "Оптический прибор, состоящий из двух параллельно расположенных и соединённых вместе зрительных труб.",
+                "Price": 75000,
+                "Img": "Binocular",
+                "Item": {
+                    "Data": null,
+                    "ID": 704,
+                    "Type": 704,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Зонтик",
+                "Text": "Устройство, предназначенное для защиты человека от дождя или от солнечных лучей.",
+                "Price": 12500,
+                "Img": "Umbrella",
+                "Item": {
+                    "Data": null,
+                    "ID": 707,
+                    "Type": 707,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Роза",
+                "Text": "Собирательное название видов и сортов представителей рода Шиповник, выращиваемых человеком и растущих в дикой природе.",
+                "Price": 17500,
+                "Img": "Rose",
+                "Item": {
+                    "Data": null,
+                    "ID": 710,
+                    "Type": 710,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Фейерверк обычный",
+                "Text": "Фейерверк – это выстрелы пиротехники с интервалом запуска 1-5 секунд. И если салют олицетворяет красочные вспышки в небе, то фейерверк немыслим без световых и звуковых эффектов.",
+                "Price": 77500,
+                "Img": "fireworkone",
+                "Item": {
+                    "Data": null,
+                    "ID": 711,
+                    "Type": 711,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Фейерверк звезда",
+                "Text": "Фейерверк – это выстрелы пиротехники с интервалом запуска 1-5 секунд. И если салют олицетворяет красочные вспышки в небе, то фейерверк немыслим без световых и звуковых эффектов.",
+                "Price": 57000,
+                "Img": "fireworktho",
+                "Item": {
+                    "Data": null,
+                    "ID": 712,
+                    "Type": 712,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Фейерверк взрывной",
+                "Text": "Фейерверк – это выстрелы пиротехники с интервалом запуска 1-5 секунд. И если салют олицетворяет красочные вспышки в небе, то фейерверк немыслим без световых и звуковых эффектов.",
+                "Price": 47500,
+                "Img": "fireworkfree",
+                "Item": {
+                    "Data": null,
+                    "ID": 713,
+                    "Type": 713,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            },
+            {
+                "Name": "Фейерверк фонтан",
+                "Text": "Фейерверк – это выстрелы пиротехники с интервалом запуска 1-5 секунд. И если салют олицетворяет красочные вспышки в небе, то фейерверк немыслим без световых и звуковых эффектов.",
+                "Price": 69500,
+                "Img": "fireworkfoo",
+                "Item": {
+                    "Data": null,
+                    "ID": 714,
+                    "Type": 714,
+                    "Count": 1,
+                    "IsActive": false,
+                    "Datas": null
+                },
+                "IsDonate": false
+            }
+        ]
+    }
+}

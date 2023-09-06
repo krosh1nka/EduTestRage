@@ -1,0 +1,507 @@
+// @import url(./Assets/font/stylesheet.css);
+body,
+html {
+	height: 100%;
+	background: url(./Assets/playerMenu_Image.jpg) no-repeat center/cover;
+	overflow: hidden;
+	margin: 0;
+	user-select: none;
+}
+
+.PlayerMenu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(11, 11, 14, 0.99);
+	overflow: hidden;
+	user-select: none;
+}
+
+.PlayerMenu__sidebar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 21.481vmin;
+	height: 100%;
+	background: radial-gradient(50% 50% at 50% 50%, rgba(98, 98, 98, 0.07) 0%, rgba(255, 255, 255, 0.01) 100%);
+}
+
+.PlayerMenu__sidebar-playerInfo-text {
+	font-family: 'PF DinDisplay Pro';
+	font-style: normal;
+}
+
+.PlayerMenu__sidebar-playerInfo-subtitle {
+	font-weight: 300;
+	font-size: 1.111vmin;
+	line-height: 1.296vmin;
+	margin-bottom: 0.648vmin;
+	color: #454552;
+}
+
+.PlayerMenu__sidebar-playerInfo {
+	display: flex;
+	margin: 3.241vmin 0 0 1.944vmin;
+}
+
+.PlayerMenu__sidebar-playerInfo-name-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.PlayerMenu__sidebar-playerInfo-name {
+	font-weight: 700;
+	font-size: 1.296vmin;
+	line-height: 1.574vmin;
+	color: #FFFFFF;
+}
+
+.PlayerMenu__sidebar-playerInfo-img {
+	margin-right: 0.648vmin;
+
+	&>img {
+		width: 3.704vmin;
+		height: 3.704vmin;
+		border-radius: 50%;
+	}
+}
+
+.PlayerMenu__sidebar-playerInfo-lvl {
+	background: url(./Assets/playerMenu_lvlBg.png) no-repeat center/contain;
+	width: 2.731vmin;
+	height: 1.481vmin;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'PF DinDisplay Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.296vmin;
+	line-height: 1.574vmin;
+	margin-left: 0.556vmin;
+	color: #010101;
+}
+
+.PlayerMenu__header {
+	position: absolute;
+	top: 0;
+	left: 23.333vmin;
+	right: 0;
+	height: 9.259vmin;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	&::after {
+		content: "";
+		background: url(./Assets/playerMenu_hr.png) no-repeat center/cover;
+		height: 0.492vmin;
+		width: 100%;
+		position: absolute;
+		top: 8.796vmin;
+		left: -1.852vmin;
+	}
+}
+
+.PlayerMenu__header-info-section {
+	display: flex;
+}
+
+.PlayerMenu__header-info {
+	min-width: 11.019vmin;
+	height: 3.981vmin;
+	background: linear-gradient(91.51deg, rgba(24, 25, 33, 0.3) -0.85%, rgba(14, 15, 27, 0.3) 99.34%);
+	border-radius: 0.278vmin;
+	border: #181921 0.093vmin solid;
+	margin-right: 1.389vmin;
+	display: flex;
+	align-items: center;
+	padding: 0.556vmin;
+	box-sizing: border-box;
+
+	&>img {
+		width: 2.87vmin;
+		height: 2.593vmin;
+		margin-right: 1.019vmin;
+	}
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.PlayerMenu__logo {
+	position: absolute;
+	top: 1.667vmin;
+	left: 50%;
+	transform: translateX(-50%);
+
+	&>img {
+		width: 20.648vmin;
+		height: 6.458vmin;
+	}
+}
+
+.PlayerMenu__header-hotkey-section {
+	display: flex;
+	align-items: center;
+	margin-right: 4.074vmin;
+
+	&>img {
+		width: 4.63vmin;
+		height: 4.63vmin;
+		margin-right: 0.37vmin;
+	}
+}
+
+.PlayerMenu__header-hotkey-title {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.296vmin;
+	line-height: 1.574vmin;
+	color: #FFFFFF;
+}
+
+.PlayerMenu__header-hotkey-sub {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.296vmin;
+	line-height: 1.574vmin;
+
+	color: rgba(255, 255, 255, 0.37);
+}
+
+.PlayerMenu__content {
+	position: absolute;
+	left: 23.889vmin;
+	top: 15vmin;
+	bottom: 6.852vmin;
+	right: 4.074vmin;
+}
+
+.PlayerMenu__sidebar-nav {
+	margin: 4.444vmin 0vmin 0 1.667vmin;
+}
+
+.PlayerMenu__sidebar-nav-item {
+	font-family: 'PF DinDisplay Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.296vmin;
+	line-height: 1.574vmin;
+	height: 1.852vmin;
+	display: flex;
+	align-items: center;
+	width: 100%;
+
+	&::after {
+		content: "";
+		background: url(./Assets/playerMenu_nav-item-arr.svg) no-repeat center/contain;
+		min-width: 0.833vmin;
+		height: 0.926vmin;
+		margin-left: 0.741vmin;
+		transform: rotate(0deg);
+	}
+
+	&--empty {
+		&::after {
+			transform: rotate(-90deg);
+		}
+	}
+
+	&--select {
+		&::after {
+			transform: rotate(-180deg);
+		}
+	}
+
+	&>img {
+		width: 1.852vmin;
+		height: 1.852vmin;
+		margin-right: 1.019vmin;
+		transition: transform 0.3s ease;
+	}
+
+	&:hover {
+		color: #98fa95;
+
+		&>img {
+			transform: scale(1.3);
+			filter: drop-shadow(0vmin 0vmin 0.926vmin #98fa9588);
+		}
+	}
+
+	color: #FFFFFF;
+}
+
+.PlayerMenu__sidebar-nav-subrouts {
+	display: flex;
+	flex-direction: column;
+	font-family: 'PF DinDisplay Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.296vmin;
+	line-height: 1.574vmin;
+	margin-left: 0.833vmin;
+	color: #FFFFFF;
+	margin-top: 0.463vmin;
+}
+
+.PlayerMenu__sidebar-nav-subroute {
+	height: 2.315vmin;
+	display: flex;
+	align-items: center;
+
+	&:hover {
+		color: #91ff8d;
+
+		&::before {
+			background-color: #8dff3575;
+		}
+	}
+
+	&::before {
+		content: "";
+		mask: url(./Assets/playerMenu_nav-decor.svg) no-repeat center/contain;
+		width: 0.741vmin;
+		height: 2.608vmin;
+		background: #1D1D23;
+		margin-right: 0.926vmin;
+		transition: background-color 0.3s ease;
+	}
+
+	&:last-child {
+		&:hover {
+			color: #98fa95;
+
+			&::before {
+				background-color: #8dff3575;
+			}
+		}
+
+		&::before {
+			mask: url(./Assets/playerMenu_nav-last-child.svg) no-repeat center/contain;
+			height: 1.358vmin;
+			background: #1D1D23;
+			margin-bottom: 1.111vmin;
+		}
+
+		&--selected {
+			color: #91ff8d;
+
+			&::before {
+				background-color: #8dff3575;
+			}
+		}
+	}
+
+	&--selected:last-child {
+
+		color: #91ff8d;
+
+		&::before {
+			background-color: #8dff3575;
+		}
+
+	}
+
+	&--selected {
+		color: #91ff8d;
+
+		&::before {
+			background-color: #8dff3575;
+		}
+	}
+}
+
+.PlayerMenu__sidebar-nav-item-wrapper {
+	margin-bottom: 1.667vmin;
+}
+
+.PlayerMenu__header-info-text {
+	font-family: 'PF DinDisplay Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.111vmin;
+	line-height: 1.296vmin;
+
+	color: #51516D;
+
+	&>div:last-child {
+		font-family: 'PF DinDisplay Pro';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 1.296vmin;
+		line-height: 1.574vmin;
+		white-space: nowrap;
+
+		&>span {
+			color: #FFD646;
+			margin-left: 1ch;
+		}
+
+		color: #FFFFFF;
+	}
+}
+
+.PlayerMenu__notify {
+	width: 27.871vmin;
+	min-height: 7.13vmin;
+	background: #111114;
+	display: flex;
+	align-items: center;
+	padding: 1.019vmin 1.852vmin;
+	box-sizing: border-box;
+	position: relative;
+
+	font-family: 'PF DinDisplay Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.481vmin;
+	line-height: 1.76vmin;
+	color: #FFFFFF;
+	margin-top: 10px;
+	overflow: hidden;
+
+	&:first-child {
+		margin: 0;
+	}
+
+	transition: transform 0.3s ease;
+
+	&:hover {
+		transform: scale(1.05);
+	}
+
+
+	&--Success {
+		box-shadow: 0 10px 20px rgba(0, 255, 102, 0.01);
+		border: 1px dashed rgba(88, 249, 73, 0.138);
+	}
+	&--Error {
+		box-shadow: 0 5px 20px rgba(255, 0, 47, 0.1);
+		border: 1px dashed rgba(249, 73, 105, 0.138);
+		&::after {
+			background: url(./Assets/Notify/Faill.png) no-repeat center/contain;
+		}
+	}
+}
+
+.PlayerMenu__norfy-title-section {
+	min-height: 4.5vmin;
+}
+
+
+.PlayerMenu__norfy-subtitle {
+	font-family: 'PF DinDisplay Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.111vmin;
+	line-height: 1.296vmin;
+	max-width: 17.407vmin;
+	margin-bottom: 1vmin;
+
+	color: rgba(255, 255, 255, 0.18);
+}
+
+.PlayerMenu__notify-section {
+	position: absolute;
+	bottom: 1vmin;
+	left: 50%;
+	z-index: 5000;
+	transform: translateX(-50%);
+}
+
+.PlayerMenu__norfy-img-section {
+	min-width: 5.093vmin;
+	min-height: 5.093vmin;
+
+	border-radius: 0.464vmin;
+	margin-right: 1.111vmin;
+	position: relative;
+
+	&::after {
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		min-width: 2.593vmin;
+		min-height: 2.037vmin;
+	}
+	&--Success {
+		background: radial-gradient(50% 50% at 50% 50%, rgba(0, 255, 102, 0.07) 0%, rgba(0, 255, 102, 0.01) 100%), linear-gradient(180deg, rgba(80, 202, 255, 0) 0%, rgba(255, 255, 255, 0.01) 100%);
+		border: 0.093vmin solid rgba(0, 255, 102, 0.17);
+		&::after {
+			background: url(./Assets/Notify/Succes.png) no-repeat center/contain;
+		}
+	}
+	&--Error {
+		background: radial-gradient(50% 50% at 50% 50%, rgba(255, 0, 46, 0.07) 0%, rgba(255, 0, 46, 0.01) 100%), linear-gradient(180deg, rgba(80, 202, 255, 0) 0%, rgba(255, 255, 255, 0.01) 100%);
+		border: 0.68px solid rgba(255, 0, 46, 0.17);
+		border-radius: 3.38px;
+		&::after {
+			background: url(./Assets/Notify/Faill.png) no-repeat center/contain;
+		}
+	}
+}
+
+.PlayerMenu__norfy-range {
+	width: 18.056vmin;
+	height: 0.185vmin;
+	background: rgba(255, 255, 255, 0.03);
+	position: absolute;
+	bottom: 1.019vmin;
+	right: 1.759vmin;
+}
+
+.PlayerMenu__norfy-range-inner {
+	width: 18.056vmin;
+	height: 0.185vmin;
+	background: #FFFFFF;
+	transition: width 0.2s linear;
+}
+
+
+.fade-enter-active,
+.fade-leave-active {
+	transition: transform 0.5s ease, opacity 0.5s ease;
+	opacity: 1;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+	opacity: 0;
+	transform: translate(10%);
+}
+
+.showNotify-enter-active,
+.showNotify-leave-active {
+	transition: transform 0.3s ease, opacity 0.3s ease, height 0.3s ease;
+	overflow: hidden;
+	opacity: 1;
+	transform: translateY(0) scaleY(1);
+}
+
+.showNotify-enter-from,
+.showNotify-leave-to {
+	opacity: 0;
+	transform: translateY(-10%) scaleY(0);
+	height: 0;
+}
+
+.opacity-enter-active,
+.opacity-leave-active {
+	transition: opacity 0.5s ease;
+	opacity: 1;
+}
+
+.opacity-enter-from,
+.opacity-leave-to {
+	opacity: 0;
+}
