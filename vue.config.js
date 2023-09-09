@@ -10,6 +10,7 @@ module.exports = defineConfig({
     extract: false,
     sourceMap: false
   },
+
   configureWebpack: {
     cache: {
       type: 'filesystem', // Используйте тип 'filesystem' для инкрементальной пересборки
