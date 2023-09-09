@@ -4,7 +4,8 @@ module.exports = defineConfig({
   publicPath: '',
   filenameHashing: false,
   productionSourceMap: false,
-  outputDir: '../client_packages/spa',
+  outputDir: '../client_packages/spa', 
+  
   // configureWebpack: {
   //   devServer: {
   //     overlay: false
